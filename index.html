@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>One Page Layout</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+
+<style>
+
+	.container-fluid{
+			height: auto;
+			border: 5px solid black;
+	}
+	
+	#menu{
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	#separate{
+	margin: 10px;
+	margin-top: 40px;
+	justify-content: space-around;
+
+}
+
+#content{
+	border: 5px solid red;
+	padding: 5px;
+	height: auto;
+	margin-left: 10px;
+	}
+
+#chicken{
+	border: 1px solid black;
+	background-color: orange;
+	text-align: center;
+	float:right;
+
+	
+}
+
+#beef{
+	border: 1px solid black;
+	background-color: orange;
+	text-align: center;
+	float:right;
+}
+#sushi{
+	border: 1px solid black;
+	background-color: orange;
+	text-align: center;
+	float:right;
+}
+
+#footer{
+	margin-top: 200px;
+	background-color: lightgreen;
+	width: 100%;
+	text-align: end;
+	font-size: 25px;
+	border: 1px solid red;
+	padding: 15px;
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row" >
+			<div class="col">
+				<h3 id="menu">Our Menu</h3>
+			</div>
+		</div>
+
+		<div class="row" id="separate">
+				<div class="col-lg-3 col-md-5" id="content" >
+					<div class="col-4" id="chicken">Chicken</div>		
+						<br>
+						<br>The .disabled class uses pointer-events: none to try to disable the link functionality of <a>s, but that CSS property is not yet standardized. In addition, even in browsers that do support pointer-events: none, keyboard navigation remains unaffected, meaning that sighted keyboard users and users of assistive technologies will still be able to activate these links.
+				</div>
+				<br>
+				<br>
+				<div class="col-lg-3 col-md-5 " id="content">
+						<div class="col-4" id="beef">Beef</div>
+						<br>
+						<br>The .disabled class uses pointer-events: none to try to disable the link functionality of <a>s, but that CSS property is not yet standardized. In addition, even in browsers that do support pointer-events: none, keyboard navigation remains unaffected, meaning that sighted keyboard users and users of assistive technologies will still be able to activate these links.
+				</div>
+				<br>
+				<br>
+				<div class="col-lg-3 col-md-11 " id="content">
+						<div class="col-4" id="sushi">Sushi</div>
+						<br>
+						<br><p>The .disabled class uses pointer-events: none to try to disable the link functionality of <a>s, but that CSS property is not yet standardized. In addition, even in browsers that do support pointer-events: none, keyboard navigation remains unaffected, meaning that sighted keyboard users and users of assistive technologies will still be able to activate these links.</p>
+				</div>
+			</div>
+
+			<div class="row" >
+                <h4 id="footer">copyrights details</h4>
+       			 </div>
+
+	</div>
+
+</body>
+</html>
